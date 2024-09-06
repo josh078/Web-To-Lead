@@ -25,6 +25,6 @@ if (response == null || response.value.trim() == "")
         document.getElementsByName("captcha_settings")[0].value = 
         JSON.stringify(elems); } } setInterval(timestamp, 500); 
 
-function captchachecked() {
+function captchasucess() {
     captchacheck = true;
 }
