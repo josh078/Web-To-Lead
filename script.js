@@ -2,7 +2,7 @@ let captchacheck = false;
 
 
 function onsubmithandler(event) {
-    if(captchachecked) {
+    if(captchacheck) {
     let input = document.querySelector(".inputdate");
     let output = document.querySelector(".outputdate");
     //since the input.value is in string therefore coverting it to localedate;
