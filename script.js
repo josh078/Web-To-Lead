@@ -1,4 +1,4 @@
-let captchachecked = false;
+let captchacheck = false;
 
 
 function onsubmithandler(event) {
@@ -26,5 +26,5 @@ if (response == null || response.value.trim() == "")
         JSON.stringify(elems); } } setInterval(timestamp, 500); 
 
 function captchachecked() {
-    captchachecked = true;
+    captchacheck = true;
 }
